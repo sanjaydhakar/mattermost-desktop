@@ -17,15 +17,16 @@
  *                                          when "enableServerManagement is set to false
  */
 const buildConfig = {
-  defaultTeams: [/*
+  defaultTeams: [
     {
-      name: 'example',
-      url: 'https://example.com'
+      name: 'FlipChat',
+      url: 'https://mtrmost.eastus2.cloudapp.azure.com'
     }
-  */],
+  ],
   helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
   enableServerManagement: true,
   enableAutoUpdater: true,
 };
 
 export default buildConfig;
+
