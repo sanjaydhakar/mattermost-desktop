@@ -16,14 +16,20 @@
  *                                          Specify at least one server for "defaultTeams"
  *                                          when "enableServerManagement is set to false
  */
+
+// Change has to be made here once the new domain is set up for final release//
 const buildConfig = {
   defaultTeams: [
     {
       name: 'FlipChat',
       url: 'https://mtrmost.eastus2.cloudapp.azure.com'
+      /* url : 'http://rocketchat.eastus.cloudapp.azure.com:8065'*/
+      /*name: 'FlipChat'*/
+	
     }
   ],
-  helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
+  //  Removed the mattermost Link for Help page/// // Can add after production setup is done ///
+  helpLink: '',
   enableServerManagement: true,
   enableAutoUpdater: true,
 };
