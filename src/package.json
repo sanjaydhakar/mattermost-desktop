@@ -1,9 +1,9 @@
 {
   "name": "mattermost-desktop",
-  "productName": "Mattermost",
-  "desktopName": "Mattermost.desktop",
+  "productName": "FlipChat",
+  "desktopName": "FlipChat.desktop",
   "version": "4.6.0-develop",
-  "description": "Mattermost",
+  "description": "FlipChat",
   "main": "main_bundle.js",
   "author": "Mattermost, Inc. <feedback@mattermost.com>",
   "homepage": "https://about.mattermost.com",
@@ -31,3 +31,4 @@
     "yargs": "^3.32.0"
   }
 }
+
