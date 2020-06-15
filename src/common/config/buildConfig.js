@@ -22,10 +22,7 @@ const buildConfig = {
   defaultTeams: [
     {
       name: 'FlipChat',
-      url: 'https://mtrmost.eastus2.cloudapp.azure.com'
-      /* url : 'http://rocketchat.eastus.cloudapp.azure.com:8065'*/
-      /*name: 'FlipChat'*/
-	
+      url: 'https://flipchat.southindia.cloudapp.azure.com'
     }
   ],
   //  Removed the mattermost Link for Help page/// // Can add after production setup is done ///
